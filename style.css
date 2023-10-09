@@ -1,0 +1,28 @@
+body{
+	font-family: helvetica, sans-serif;
+	width: 350px;
+	display: block;
+	margin: 8px;
+}
+
+div{
+	padding-bottom: 20px;
+	display: block; 
+}
+
+label{
+	font-weight: bold;
+	cursor: default;
+}
+
+input[type="text"]{
+	padding: 5px;
+	width: 150px;
+}
+
+.story{
+	background: #ffc125;
+	color: #5e2612;
+	padding: 10px;
+	visibility: hidden;
+}
