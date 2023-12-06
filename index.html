@@ -7,24 +7,26 @@
 	<title>Random story generator</title>
 </head>
 <body>
-	<div>
-		<label for="customname">Enter custom name</label>
-		<input type="text" id="customname" placeholder="Name">
-	</div>
+	<div class="container">
+        <div>
+            <label for="customname">Enter custom name</label>
+            <input type="text" id="customname" placeholder="Name">
+	    </div>
 
-	<div>
-		<label for="us">US</label>
-		<input type="radio" name="ukus" value="us" checked>
+	    <div>
+            <label for="us">US</label>
+            <input type="radio" name="ukus" value="us" checked>
 
-		<label for="uk">UK</label>
-		<input type="radio" name="ukus" value="uk" id="uk">
-	</div>
+            <label for="uk">UK</label>
+            <input type="radio" name="ukus" value="uk" id="uk">
+	    </div>
 
-	<div>
-		<button type="button" class="randomize"> Generate random story</button>
-	</div>
+	    <div>
+		    <button type="button" class="randomize"> Generate random story</button>
+	    </div>
 
-	<p class="story"></p>
+	    <p class="story"></p>
+    	</div>
 
 	<script src ="main.js"></script>
 </body>
