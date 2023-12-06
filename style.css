@@ -1,28 +1,62 @@
-body{
-	font-family: helvetica, sans-serif;
-	width: 350px;
-	display: block;
-	margin: 8px;
-}
+.container{
+            justify-content: center;
+            padding-top: 50px;
+            padding-left: 100px;
+            padding-right: 500px;
+            background-color: #9f9f9f;
+            box-shadow: 0 0 10px black;
+        }
+        body{
+            font-family: 'Dhurjati', sans-serif;
+            margin: 8px;
+            
+        }
+        button{
+            text-decoration: none;
+            font-family: 'Dhurjati', sans-serif;
+            font-size: larger;
+            border-radius: 10px;
+            padding:auto;
+            background-color: aliceblue;
+            transition: 0.3s;
+            
+        }
+        button:hover{
+            background-color: black;
+            color: white;
+            box-shadow: 0 0 10px black;
+        }
 
-div{
-	padding-bottom: 20px;
-	display: block; 
-}
+        div{
+                padding-bottom: 20px;
+                display: block; 
+        }
 
-label{
-	font-weight: bold;
-	cursor: default;
-}
+        label{
+                font-weight: bold;
+                cursor: default;
+        }
 
-input[type="text"]{
-	padding: 5px;
-	width: 150px;
-}
+        input[type="text"]{
+                padding: 5px;
+                width: 500px;
+                font-family: 'Dhurjati', sans-serif;
+                font-size: larger;
+        }
+        input[type="radio"]{
+            transition: 0.3s;
+            border-radius: 10px;
+        }
+        input[type="radio"]:hover
+        {
+            box-shadow:0 0 10px black;
+        }
 
-.story{
-	background: #ffc125;
-	color: #5e2612;
-	padding: 10px;
-	visibility: hidden;
-}
+        .story{
+                background: #cfcfcf;
+                color: #000000;
+                padding: 10px;
+                visibility: hidden;
+                border-radius: 10px;
+                box-shadow: 0 0 10px black;
+        }
